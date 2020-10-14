@@ -11,8 +11,7 @@ let package = Package(
     targets: [
         .systemLibrary(
             name: "Clibevent",
-            pkgConfig: "libevent",
-            providers: [.brew(["libevent"]), .apt(["libevent-dev"])]
+            pkgConfig: "libevent"
         )
     ]
 )
